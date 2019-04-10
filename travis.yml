@@ -1,0 +1,3 @@
+# Build script
+script:
+  - npm run start && npm run test-a11y;
