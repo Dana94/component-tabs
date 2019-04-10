@@ -1,0 +1,19 @@
+{
+  "defaults": {
+    "timeout": 4000,
+    "standard": "WCAG2AA",
+    "includeWarnings": true,
+    "rootElement": "body",
+    "width": 1280
+  },
+  "urls": [
+    {
+      "url": "./demo/index.html",
+      "timeout": 50000,
+      "actions": [
+        "click element #tab-js-tab2",
+		"click element #tab-js-tab3-alt"
+      ]
+    }
+  ]
+}
